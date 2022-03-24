@@ -1,0 +1,71 @@
+
+<ion-header [translucent]="true">      
+  <ion-toolbar id="tittle">
+    <ion-title >
+      Peso Planta en Piña         
+    </ion-title>          
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <button class="btn btn-default btn-circle" style="background: red; margin-left: 95%;" (click)="delete()"><ion-icon name="trash-outline"></ion-icon></button>  
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <section>
+
+      <div id="area">
+        <div>Area</div>
+        <input  formControlName="area" id="firstInput" type="text" class="prueba">
+        <div style="margin-top: 5px;"># Plantas</div>
+        <div id="cplantas" style="background: white; height: 18px; margin-top: 2px; color: black"></div>
+      </div> 
+      <div id="rango">
+        <div>Rango</div>
+        <div id="rplantas" style="background: white; height: 20px; color: black;"></div>
+      </div>
+    </section>
+
+    <div id="firstLine">
+      <div style="background: rgb(18, 18, 18); border: 1px solid rgb(18, 18, 18);"></div>
+      <div id="colorFirstTable">Extra Grande</div>
+      <div id="colorFirstTable">Grande</div>
+      <div id="colorFirstTable">Mediana</div>
+      <div id="colorFirstTable">Pequeña</div>
+      <div id="colorFirstTable">Muy pequeña</div>
+      <div style="background: rgb(18, 18, 18); border: 1px solid rgb(18, 18, 18);"></div>
+      <div id="colorSecondTable">Peso(g)</div>
+      <input formControlName="p1" type="text">
+      <input formControlName="p2" type="text">
+      <input formControlName="p3" type="text">
+      <input formControlName="p4" type="text">
+      <input formControlName="p5" type="text">
+      <div style="background: rgb(18, 18, 18); border: 1px solid rgb(18, 18, 18);"></div>
+
+      <div id="colorSecondTable">Cantidad</div>
+      <input formControlName="c1" type="text">
+      <input formControlName="c2" type="text">
+      <input formControlName="c3" type="text">
+      <input formControlName="c4" type="text">
+      <input formControlName="c5" type="text">
+      <div id="cantidadPlantas"></div>
+
+      <div id="colorSecondTable">Promedio</div>
+      <div id="p1"></div>
+      <div id="p2"></div>
+      <div id="p3"></div>
+      <div id="p4"></div>
+      <div id="p5"></div>
+      <div id="promedioTotal"></div>
+
+    </div>
+    <button style="margin-left: 47%; margin-top: 10px; font-weight: bold;" class="btn btn-primary" type="submit">Calcular</button>
+  </form>   
+
+
+</ion-content>
+

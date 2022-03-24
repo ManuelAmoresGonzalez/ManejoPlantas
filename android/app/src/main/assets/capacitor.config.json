@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ManejoPlantas",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

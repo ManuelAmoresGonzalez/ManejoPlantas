@@ -1,0 +1,86 @@
+#tittle{
+    text-align: center;
+  }
+  
+  .btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+  div{
+    text-align: center;
+  }
+  
+  input{
+    background: white ;
+    color: black;
+    width: 100%;
+    text-align: center;
+  }
+  
+  section{
+    font-weight: bold;
+    margin-top: 1px;
+    display: grid;
+    width: 100%;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    margin-bottom: 50px;
+    padding-left: 10%;
+  }
+  
+  #firstInput{
+    background: white ;
+    color: black;
+    text-align: center;
+  }
+  
+  #area{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 20px 20px ;
+  }
+  
+  #rango{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  }
+  
+  #firstLine{
+    width: 100%;
+    text-align: center;
+    display: grid;
+    color: black;
+    font-weight: bold;
+    background: white;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25px 25px 25px 25px;
+  }
+  
+  #firstLine > * {
+    border: 1px solid black;
+  }
+  
+  #colorFirstTable{
+   background: rgba(182, 85, 85, 0.822);
+  }
+  
+  #colorSecondTable{
+    background: rgba(74, 155, 78, 0.822);
+   }
+  
+  
